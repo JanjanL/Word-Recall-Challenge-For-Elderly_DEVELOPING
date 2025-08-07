@@ -23,10 +23,10 @@ It offers multiple attempts and provides helpful hints to guide the player.
 import random
 import time
 import os
-random.seed(8)
 import pandas
+random.seed(8)
 
-word_dict = {"laptop": ["machine", "contain a screen", "cold"],  
+word_dict = {"laptop": ["machine", "contains a screen", "cold"],  
             "apple": ["delicious", "healthy", "red"],       
             "hongkong": ["city", "skyscrapers", "harbor"],
             }
@@ -45,7 +45,7 @@ def clear_terminal():
 
 def countdown(a):
     """
-    Countdown into every second and print out the second remain
+    Count down into every second and print out the seconds remaining.
     """
     for i in range(a):
         print(a-i)
